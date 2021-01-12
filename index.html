@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>prfect web tech solution!</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-uppercase" href="#">prfect web tech solution!</a>
+        </div>
+      </nav>
+    
+    
+    
+    
+      <div class="container my-3">
+          <h1>Your own library</h1>
+        <form id="libraryform" >
+            <div class="form-group my-2">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" name="name" id="name" placeholder="name@example.com">
+            </div>
+            <div class="form-group my-2">
+                <label for="author">Author</label>
+                <input type="text" class="form-control" name="author" id="author" placeholder="author">
+              </div>
+              <div class="form-group  my-2">
+                  <label for="type">Type</label>
+                  <div class=" d-flex mt-2 ">
+                    <div class="form-check mx-2">
+                        <input class="form-check-input" type="radio" name="type" id="fiction" value="fiction" >
+                        <label class="form-check-label" for="exampleRadios1">
+                        fiction
+                        </label>
+                      </div>
+                      <div class="form-check mx-2">
+                        <input class="form-check-input" type="radio" name="type" id="code" value="code">
+                        <label class="form-check-label" for="exampleRadios2">
+                          code
+                        </label>
+                      </div>
+                      <div class="form-check mx-2">
+                        <input class="form-check-input" type="radio" name="type" id="cooking" value="cooking" >
+                        <label class="form-check-label" for="exampleRadios3">
+                        cooking
+                        </label>
+                      </div>
+                  </div>
+              </div> 
+
+            <div class="mt-3 form-group">
+                <button type="submit" class="btn text-capitalize btn-outline-primary">add book</button>
+            </div>
+
+
+          </form>
+      
+      
+
+      <hr>
+
+      <h1 class=" text-capitalize">your  book</h1>
+      <table class="table">
+        <thead class="thead-dark" >
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Book</th>
+            <th scope="col">Author</th>
+            <th scope="col">Book Type</th>
+          </tr>
+        </thead>
+        <tbody id="tableDataEelment">
+          <!-- <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr> -->
+        </tbody>
+      </table>
+      
+      
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+    <script src="./index.js"></script>
+  </body>
+</html>
